@@ -3,9 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="item">
+          <h2 class="item__title">Rock</h2>
+          <img src="./images/rock.png" alt="Rock" class="item__img" />
+        </div>
+        <div class="item">
+          <h2 class="item__title">Paper</h2>
+          <img src="./images/paper.png" alt="Paper" class="item__img" />
+        </div>
+        <div class="item">
+          <h2 class="item__title">Scissors</h2>
+          <img src="./images/scissors.png" alt="Scissors" class="item__img" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="game">
+        <div class="player left">
+          <h3 class="game__player user">USER</h3>
+          <img src="./images/rock.png" alt="" class="game__img img-left" />
+        </div>
+        <div class="player right">
+          <h3 class="game__player cpu">CPU</h3>
+          <img src="./images/rock.png" alt="" class="game__img img-right" />
+        </div>
+      </div>
+      <h2 class="game__title">Let's Play</h2>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>

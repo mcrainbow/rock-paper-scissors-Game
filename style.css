@@ -1,1 +1,82 @@
 @import url("./normalize.css");
+
+body {
+  background-color: black;
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.header {
+  height: 200px;
+
+  border-bottom: 1px solid purple;
+}
+.item {
+  height: 150px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item__title {
+  color: purple;
+}
+.item__img {
+  width: 70px;
+  height: 100px;
+
+  cursor: pointer;
+}
+
+/* ! Main */
+
+.main {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game {
+  width: 600px;
+  height: 400px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 200px;
+}
+.left .game__img {
+  transform: rotate(90deg);
+}
+.game__player {
+  color: purple;
+  font-weight: 700;
+  font-size: 30px;
+}
+.user {
+}
+.game__img {
+  width: 150px;
+  height: 200px;
+}
+.right .game__img {
+  transform: rotate(-90deg) rotateY(180deg);
+}
+.cpu {
+}
+.game__title {
+  color: purple;
+  font-size: 50px;
+}
